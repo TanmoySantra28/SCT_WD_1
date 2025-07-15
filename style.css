@@ -104,3 +104,42 @@ header .navbar{
     color: var(--white-color);
     justify-content: space-between;
 }
+.hero-section .hero-details .title{
+    font-size: var(--font-size-xxl);
+    color: var(--secondary-color);
+    font-family: "Miniver", sans-serif;
+}
+.hero-section .hero-details .subtitle{
+    margin-top: 8px;
+    max-width: 70%;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+}
+.hero-section .hero-details .description{
+    max-width: 70%;
+    margin: 24px 0 40px;
+    font-size: var(--font-size-m);
+}
+.hero-section .hero-details .buttons{
+    display: flex;
+    gap: 23px;
+}
+.hero-section .hero-details .button{
+    padding: 10px 26px;
+    border: 2px solid transparent;
+    color: var(--primary-color);
+    border-radius: var(--border-radius-m);
+    background: var(--secondary-color);
+    font-weight: var(--font-weight-medium);
+    transition: 0.3s ease;
+
+}
+.hero-section .hero-details .button:hover{
+    color: var(--white-color);
+    border-color: var(--white-color);
+    background: transparent;
+}
+.hero-section .hero-image-wrapper{
+    max-width: 500px;
+    margin-right: 30px;
+}
